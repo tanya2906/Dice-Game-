@@ -6,7 +6,7 @@ const Rules=(props)=>{
                 <br/>
                 Click on dice image
                 <br />
-                after click on  dice  if selected number is equal to dice number you will get same point as dice if you get wrong guess then  2 point will be dedcuted 
+                after click on  dice  if selected number is equal to dice number you will get 4 points as dice if you get wrong guess then 1 point will be deducted 
             </p>
         </div>
     );
