@@ -1,0 +1,84 @@
+.frame1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.frame1 div{
+    
+    display: flex;
+    
+}
+.d2{
+    flex-direction: column;
+    align-items: end;
+}
+.d2 h1{
+    font-size:80px;
+}
+.d2 button{
+    color: white;
+    background-color: black;
+    font-size: smaller;
+    width: 220px;
+    padding: 6px ;
+}
+.d2 button:hover{
+    background-color: white;
+    color: black;
+}
+@media only screen and (max-width:1200px){
+    .d1 img{
+        width: 157px;
+        height: 125px;
+    }
+    .d2{
+        position: relative;
+        height: 125px;
+    }
+    .d2 button{
+        position: absolute;
+        top: 200px;
+    }
+}
+@media only screen and (max-width:700px){
+    .d1 img{
+        width: 100px;
+        height: 81px;
+    }
+    .d2{
+        position: relative;
+        height: 81px;
+    }
+    .d2 button{
+        position: absolute;
+        top: 130px;
+    }
+    .d2 h1{
+        font-size: xxx-large;
+    }
+}
+@media only screen and (max-width:500px){
+    .d2 h1{
+        font-size: xx-large;
+    }
+}
+@media only screen and (max-width:380px){
+    .d1 img{
+        width: 80px;
+        height: auto;
+    }
+    .d2{
+        height: 64px;
+    }
+    .d2 button{
+        position: absolute;
+        top: 130px;
+        width: 100%;
+
+    }
+    .d2 h1{
+        font-size: x-large;
+    }
+}
